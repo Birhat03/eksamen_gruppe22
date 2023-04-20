@@ -1,0 +1,120 @@
+body {
+    background: #f3f3f3;
+     margin: 0;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+header a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+/* posisjonere til høyre hentet fra https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements */
+
+nav {
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+nav ul li {
+    font-size: larger;
+}
+
+.header{
+    margin: auto;
+}
+
+#gshop-header {
+    display: inline-flex;
+    align-items: center;
+   height: 5rem;
+}
+
+.gameshop-view{
+    background-color: #d2d2d2;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+h2{
+    text-transform: uppercase;
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.gameshop-card {
+    max-width: 400px;
+    width: 100%;
+    padding: 3rem;
+  }
+
+/* gjør bildene responsivt hentet fra https://www.w3schools.com/howto/howto_css_image_responsive.asp */
+ img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mygames-view {
+    max-width: 50%;
+    float: left;
+    margin-left:10rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .mygames-page {
+    margin-left:10rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .myfav-view {
+    float: left;
+    margin-left: 3rem;
+    padding-left: 3rem;
+    border-left: solid 2px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+.link{
+    text-decoration: none;
+    color: black;
+}

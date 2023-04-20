@@ -5,6 +5,7 @@ import {store, mygames} from './games'
 import GameShopPage from './pages/GameShopPage';
 import MyGamesPage from './pages/MyGamesPage';
 import MyFavPage from './pages/MyFavPage';
+import './games.css';
 
 
 function App() {
