@@ -22,11 +22,8 @@ function App() {
           <Route index element={<Dashboard store={store} mygames={mygames} myfav={myfav}/>} />
           <Route path='/gameshop' element={<GameShopPage store={store} />}/>
           <Route path='/mygames' element={<MyGamesPage mygames={mygames} />}/>
+          <Route path='/mygames/:link' element={<GamePage games={mygames} />} />
           <Route path='/favourites' element={<MyFavPage myfav={myfav}/>}/>
-          { /*Routinga /game/:link inspirert fra https://github.com/toremake/UIN23_sanity_sandbox/blob/main/frontend/src/App.js */}
-          <Route path="/game">
-                <Route path=':link' element={<GamePage games={mygames} />}/>
-          </Route>
         </Route>
       </Routes>
   );
