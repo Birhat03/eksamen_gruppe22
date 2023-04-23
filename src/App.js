@@ -6,6 +6,7 @@ import GameShopPage from './pages/GameShopPage';
 import MyGamesPage from './pages/MyGamesPage';
 import MyFavPage from './pages/MyFavPage';
 import './games.css';
+import GamePage from './pages/GamePage'; 
 
 
 function App() {
@@ -22,6 +23,10 @@ function App() {
           <Route path='/gameshop' element={<GameShopPage store={store} />}/>
           <Route path='/mygames' element={<MyGamesPage mygames={mygames} />}/>
           <Route path='/favourites' element={<MyFavPage myfav={myfav}/>}/>
+          { /*Routinga /game/:link inspirert fra https://github.com/toremake/UIN23_sanity_sandbox/blob/main/frontend/src/App.js */}
+          <Route path="/game">
+                <Route path=':link' element={<GamePage games={mygames} />}/>
+          </Route>
         </Route>
       </Routes>
   );
