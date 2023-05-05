@@ -1,0 +1,17 @@
+- Krav: Vi gikk for D kravet.
+
+- Forutsetninger: Det med at det var anbefalt å bruke route game/gameslug. Vi syntes kanskje det var mer logisk med mygames/gameslug, så vi gjorde det istedenfor.
+
+- Utfordringer: Vi var ikke så flinke med branches så det ble ikke brukt så mye innenfor produksjonen, 
+men det var ikke så nødvendig heller. Vi fordelte oppgavene og kommuniserte med hverandre sånn at det ikke ble noen konflikter med kode.
+
+Kilder:
+
+games.css:
+- https://www.w3schools.com/howto/howto_css_image_responsive.asp
+- https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements
+
+Prosjektet inneholder liknende oppsett og koder basert/inspirert fra Birhat sin moviesearch arbeidskrav:
+- https://github.com/Birhat03/uin23ak4_moviesearch_majid
+
+Alt annet er det vi har lært fra forelesninger

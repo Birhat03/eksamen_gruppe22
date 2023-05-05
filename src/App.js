@@ -1,3 +1,5 @@
+//Prosjektet inneholder liknende oppsett og koder basert/inspirert fra Birhat sin moviesearch arbeidskrav, men igjen så er det hentet fra forelesninger:
+// https://github.com/Birhat03/uin23ak4_moviesearch_majid
 import {Route, Routes} from 'react-router-dom'
 import Dashboard from './components/Dashboard';
 import Layout from './components/Layout';

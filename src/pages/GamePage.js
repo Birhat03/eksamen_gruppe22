@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom"
 
 export default function GamePage({games}){
 
-    //hentet fra forelesning om recipe api
     const {link} = useParams()
     const game = games.find((game) => game.slug === link)
 
