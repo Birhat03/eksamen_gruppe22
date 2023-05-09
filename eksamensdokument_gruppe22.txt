@@ -15,3 +15,9 @@ Prosjektet inneholder liknende oppsett og koder basert/inspirert fra Birhat sin 
 - https://github.com/Birhat03/uin23ak4_moviesearch_majid
 
 Alt annet er det vi har lært fra forelesninger
+
+Github Aliaser:
+
+Birhat03 - Birhat Riyal Majid
+Darmin01 - Darmin Muhovic
+amanig3 - Aman Iqbal Gul
