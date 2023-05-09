@@ -1,6 +1,7 @@
 - Krav: Vi gikk for D kravet.
 
 - Forutsetninger: Det med at det var anbefalt å bruke route game/gameslug. Vi syntes kanskje det var mer logisk med mygames/gameslug, så vi gjorde det istedenfor.
+(Med mindre at spill fra store arrayen også skulle ha sin egen gamepage men vi tenkte at linken til steam butikksiden var allerede en egen side for dem. Vi ble litt forvirret der så vi bare lot det være sånn)
 
 - Utfordringer: Vi var ikke så flinke med branches så det ble ikke brukt så mye innenfor produksjonen, 
 men det var ikke så nødvendig heller. Vi fordelte oppgavene og kommuniserte med hverandre sånn at det ikke ble noen konflikter med kode.
